@@ -1,0 +1,10 @@
+[Unit]
+Description=内閣府が提供しているデータを取得し日本の休日をRedisに保存する
+
+[Timer]
+OnBootSec=0
+OnCalendar=monthly
+Persistent=true
+
+[Install]
+WantedBy=timers.target
