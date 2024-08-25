@@ -10,7 +10,7 @@
 
 ## 使用例
 
-```
+```bash
 #/bin/bash
 
 HOLIDAY=$(echo -e $(redis-cli get $(date "+%Y/%m/%d")))
